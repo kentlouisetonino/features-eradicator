@@ -12,6 +12,13 @@
         "dist/scripts/facebook/feeds.js"
       ],
       "run_at": "document_end"
+    },
+    {
+      "matches": ["*://www.linkedin.com/*"],
+      "js": [
+        "dist/scripts/linkedin/feeds.js"
+      ],
+      "run_at": "document_end"
     }
   ],
   "action": {
