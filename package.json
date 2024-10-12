@@ -1,7 +1,7 @@
 {
   "name": "features-eradicator",
   "packageManager": "yarn@1.22.22",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "scripts": {
     "dist:remove": "rm -rf dist",
