@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "./src/hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "./src/main.html",
+    "default_icon": "./src/images/hello_extensions.png"
   }
 }
