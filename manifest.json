@@ -7,17 +7,18 @@
   "content_scripts": [
     {
       "matches": ["*://www.facebook.com/*"],
-      "js": ["src/content.js"],
+      "js": ["dist/content.js"],
       "run_at": "document_end"
     }
   ],
   "action": {
-    "default_popup": "src/main.html",
+    "default_popup": "dist/main.html",
     "default_icon": {
-      "48": "./src/images/icon.png"
+      "48": "src/images/icon.png"
     }
   },
   "icons": {
-    "48": "./src/images/icon.png"
-  }
+    "48": "src/images/icon.png"
+  },
+  "type": "module"
 }

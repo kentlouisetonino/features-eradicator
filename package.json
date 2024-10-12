@@ -1,0 +1,11 @@
+{
+  "name": "nonsense-eradicator",
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "build": "tsc && cp src/*.html dist/"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.277",
+    "@types/node": "^22.7.5"
+  }
+}
