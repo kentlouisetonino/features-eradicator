@@ -6,12 +6,13 @@
 
 <br />
 
-| Supported Functionalities | Implemented |
+| `Supported Functionalities` | `Implemented` |
 | --------------------------- | ----------- |
-| Facebook Stories  | ✅ | 
-| Facebook Feeds | ✅ |
-| LinkedIn News | `In-Progress` |
-| LinkedIn Feeds | `In-Progress` | 
+| `Facebook Stories`  | ✅ | 
+| `Facebook Feeds` | ✅ |
+| `LinkedIn News` | `In-Progress` |
+| `LinkedIn Feeds` | `In-Progress` | 
+| `...` | `...` |
 
 
 <br />
