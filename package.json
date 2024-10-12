@@ -1,7 +1,7 @@
 {
   "name": "nonsense-eradicator",
   "packageManager": "yarn@1.22.22",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dist:remove": "rm -rf dist",
     "dist:copy:html": "cp src/*.html dist/",
