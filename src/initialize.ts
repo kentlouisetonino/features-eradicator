@@ -1,3 +1,7 @@
+/*
+ * This will initialize once the DOM is loaded.
+ */
+
 function hideFacebookStoriesUnique() {
   const stories = document.querySelectorAll(".x193iq5w.xgmub6v.x1ceravr");
   stories.forEach((story) => {

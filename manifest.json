@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["*://www.facebook.com/*"],
-      "js": ["dist/content.js"],
+      "js": ["dist/initialize.js"],
       "run_at": "document_end"
     }
   ],
