@@ -3,7 +3,10 @@
   "packageManager": "yarn@1.22.22",
   "version": "0.0.1",
   "scripts": {
-    "build": "rm -rf dist && tsc && cp src/*.html dist/"
+    "dist:remove": "rm -rf dist",
+    "dist:copy:html": "cp src/*.html dist/",
+    "dist:copy:css": "cp src/css/*.css dist/",
+    "build": "yarn dist:remove && tsc && yarn dist:copy:html && yarn dist:copy:css"
   },
   "dependencies": {
     "@types/chrome": "^0.0.277",
