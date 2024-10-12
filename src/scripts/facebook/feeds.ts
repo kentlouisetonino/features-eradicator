@@ -4,18 +4,18 @@ let facebookFeedsInitialLoad: boolean = true;
 
 function hideFacebookFeeds(): void {
   // Get the class of the stories from facebook.
-  const stories = document.querySelectorAll(facebookFeedsClass);
+  const feeds = document.querySelectorAll(facebookFeedsClass);
 
-  stories.forEach((story) => {
-    (story as HTMLElement).style.visibility = "hidden";
+  feeds.forEach((feed) => {
+    (feed as HTMLElement).style.visibility = "hidden";
   });
 }
 
 function showFacebookFeeds(): void {
-  const stories = document.querySelectorAll(facebookFeedsClass);
+  const feeds = document.querySelectorAll(facebookFeedsClass);
 
-  stories.forEach((story) => {
-    (story as HTMLElement).style.visibility = "visible";
+  feeds.forEach((feed) => {
+    (feed as HTMLElement).style.visibility = "visible";
   });
 }
 
