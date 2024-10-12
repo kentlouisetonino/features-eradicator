@@ -19,7 +19,7 @@ function showFacebookStories(): void {
   });
 }
 
-function updateButtonText(): void {
+function updateFacebookStoriesButtonText(): void {
   const button = document.getElementById("facebook-stories-button");
   if (button) {
     button.innerText = facebookStoriesHidden
@@ -43,12 +43,12 @@ function toggleFacebookStoriesVisibility(): void {
   });
 
   // Update the button text.
-  updateButtonText();
+  updateFacebookStoriesButtonText();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   // Update button text based on the default state.
-  updateButtonText();
+  updateFacebookStoriesButtonText();
 
   // Add click event listener to the button.
   const button = document.getElementById("facebook-stories-button");
