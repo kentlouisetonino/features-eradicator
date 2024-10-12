@@ -2,6 +2,7 @@
   "name": "nonsense-eradicator",
   "packageManager": "yarn@1.22.22",
   "version": "1.0.1",
+  "license": "MIT",
   "scripts": {
     "dist:remove": "rm -rf dist",
     "dist:copy:html": "cp src/*.html dist/",
