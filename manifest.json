@@ -1,0 +1,10 @@
+{
+  "name": "Nonsense Eradicator",
+  "description": "A chrome extension that removes certain functionalities of Facebook and Linkedin.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./src/hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
