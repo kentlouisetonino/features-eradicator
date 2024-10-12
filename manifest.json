@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["*://www.facebook.com/*"],
-      "js": ["dist/initialize.js"],
+      "js": ["dist/scripts/facebook/stories.js"],
       "run_at": "document_end"
     }
   ],
