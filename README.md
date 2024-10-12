@@ -10,8 +10,8 @@
 | --------------------------- | ----------- |
 | `Facebook Stories`  | ✅ |
 | `Facebook Feeds` | ✅ |
+| `LinkedIn Feeds` | ✅ |
 | `LinkedIn News` | `In-Progress` |
-| `LinkedIn Feeds` | `In-Progress` |
 | `...` | `...` |
 
 
