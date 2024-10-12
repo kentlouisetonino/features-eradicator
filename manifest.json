@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Nonsense Eradicator",
-  "version": "1.0",
-  "description": "Hides Facebook stories on the homepage.",
+  "name": "Features Eradicator",
+  "version": "1.0.2",
+  "description": "A chrome extension that hides some features of social media platform.",
   "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
