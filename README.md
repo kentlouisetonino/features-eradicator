@@ -36,7 +36,7 @@ git clone git@github.com:kentlouisetonino/features-eradicator.git
 
 ```sh
 # Go to the project directory.
-cd nonsense-eradicator
+cd features-eradicator
 
 # Install the packages.
 yarn install
