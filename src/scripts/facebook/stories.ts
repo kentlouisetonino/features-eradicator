@@ -62,3 +62,17 @@ if (facebookStoriesInitialLoad) {
   hideFacebookStories();
   facebookStoriesInitialLoad = false;
 }
+
+// MutationObserver to detect dynamic page changes
+const observerFacebookStories = new MutationObserver(() => {
+  if (facebookStoriesHidden) {
+    hideFacebookStories();
+  }
+});
+
+// Start observing the body for child list changes.
+// This will allow to make the page is consistent as you move across pages.
+observerFacebookStories.observe(document.body, {
+  childList: true,
+  subtree: true,
+});
