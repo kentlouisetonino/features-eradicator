@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Features Eradicator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A chrome extension that hides some features of social media platform.",
   "permissions": ["scripting", "activeTab"],
   "content_scripts": [
