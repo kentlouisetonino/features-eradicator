@@ -1,4 +1,4 @@
-## $\textnormal{Nonsense Eradicator}$
+## $\textnormal{Features Eradicator}$
 
 > - A chrome extension that hides some features of social media platform.
 
@@ -8,10 +8,10 @@
 
 | `Supported Functionalities` | `Implemented` |
 | --------------------------- | ----------- |
-| `Facebook Stories`  | ✅ | 
+| `Facebook Stories`  | ✅ |
 | `Facebook Feeds` | ✅ |
 | `LinkedIn News` | `In-Progress` |
-| `LinkedIn Feeds` | `In-Progress` | 
+| `LinkedIn Feeds` | `In-Progress` |
 | `...` | `...` |
 
 
@@ -27,7 +27,7 @@
 > - Clone the repostiory.
 
 ```sh
-git clone git@github.com:kentlouisetonino/nonsense-eradicator.git
+git clone git@github.com:kentlouisetonino/features-eradicator.git
 ```
 
 <br />
@@ -56,5 +56,5 @@ Step 1: Go to the extensions page.
 
 Step 2: Turn on the developer mode.
 
-Step 3: Click the "Load Unpacked" and Choose the "nonsense-eradicator" directory.
+Step 3: Click the "Load Unpacked" and Choose the "features-eradicator" directory.
 ```
