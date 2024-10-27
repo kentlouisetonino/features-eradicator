@@ -6,18 +6,8 @@
   "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
-      "matches": ["*://www.facebook.com/*"],
-      "js": [
-        "dist/scripts/facebook/stories.js",
-        "dist/scripts/facebook/feeds.js"
-      ],
-      "run_at": "document_end"
-    },
-    {
       "matches": ["*://www.linkedin.com/*"],
-      "js": [
-        "dist/scripts/linkedin/feeds.js"
-      ],
+      "js": ["dist/scripts/linkedin/feeds.js"],
       "run_at": "document_end"
     }
   ],

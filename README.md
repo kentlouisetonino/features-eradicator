@@ -8,10 +8,7 @@
 
 | `Supported Functionalities` | `Implemented` |
 | --------------------------- | ----------- |
-| `Facebook Stories`  | ✅ |
-| `Facebook Feeds` | ✅ |
 | `LinkedIn Feeds` | ✅ |
-| `LinkedIn News` | `In-Progress` |
 | `...` | `...` |
 
 

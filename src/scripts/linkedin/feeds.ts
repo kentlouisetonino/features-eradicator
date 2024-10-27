@@ -3,7 +3,7 @@ let linkedinFeedsHidden: boolean = true;
 let linkedinFeedsInitialLoad: boolean = true;
 
 function isFeedPage() {
-  return window.location.pathname == "/feed/"
+  return window.location.pathname == "/feed/";
 }
 
 function hideLinkedinFeeds(): void {
