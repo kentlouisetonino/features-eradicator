@@ -7,7 +7,7 @@ function isFeedPage() {
 }
 
 function hideLinkedinFeeds(): void {
-  // Get the class of the stories from facebook.
+  // Get the class of the stories from linkedin.
   const feeds = document.querySelectorAll(linkedinFeedsClass);
 
   feeds.forEach((feed) => {
@@ -39,7 +39,7 @@ function toggleLinkedinFeedsVisibility(): void {
   // If false, set to true.
   linkedinFeedsHidden = !linkedinFeedsHidden;
 
-  // Execute the script to hide/show stories in the active tab..
+  // Execute the script to hide/show stories in the active tab.
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
     chrome.scripting.executeScript({
       target: { tabId: tabs[0].id ?? 0 },
@@ -68,7 +68,7 @@ if (linkedinFeedsInitialLoad && isFeedPage()) {
   linkedinFeedsInitialLoad = false;
 }
 
-// MutationObserver to detect dynamic page changes
+// MutationObserver to detect dynamic page changes.
 const observerLinkedinFeeds = new MutationObserver(() => {
   if (linkedinFeedsHidden && isFeedPage()) {
     hideLinkedinFeeds();
